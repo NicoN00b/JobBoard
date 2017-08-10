@@ -59,6 +59,19 @@ public class JobOpeningTest {
         assertEquals(1, jobOpening.getId());
     }
 
+    @Test
+    public void findReturnsCorrectJobOpening() throws Exception {
+        JobOpening jobOpening = setupNewJobOpening();
+        assertEquals(1, JobOpening.findById(jobOpening.getId()).getId());
+    }
+
+    @Test
+    public void findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists() throws Exception {
+        JobOpening jobOpening = setupNewJobOpening();
+        JobOpening otherJobOpening = setupNewJobOpening();
+        assertEquals(2, JobOpening.findById(otherJobOpening.getId()).getId());
+    }
+
     public JobOpening setupNewJobOpening() {return new JobOpening("programmer");}
 
 }
