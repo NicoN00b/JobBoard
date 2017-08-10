@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b9e19f-aa48-4aa0-bad8-776878c29c1f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/models/JobOpeningTest.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/templates/index.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/templates/job-details.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/templates/jobPost-form.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/templates/layout.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/templates/success.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/models/JobOpening.class" afterPath="$PROJECT_DIR$/build/classes/main/models/JobOpening.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/test/models/JobOpeningTest.class" afterPath="$PROJECT_DIR$/build/classes/test/models/JobOpeningTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/JobOpening.java" afterPath="$PROJECT_DIR$/src/main/java/models/JobOpening.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" />
     </list>
@@ -75,19 +82,70 @@
                     <element signature="e#2205#2206#0" expanded="true" />
                     <element signature="e#2254#2255#0" expanded="true" />
                     <element signature="e#2295#2296#0" expanded="true" />
+                    <marker date="1502395952000" expanded="true" signature="2636:2858" ph="//..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="JobOpeningTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="JobOpeningTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="layout.hbs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/templates/layout.hbs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.hbs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/templates/index.hbs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="success.hbs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/templates/success.hbs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="jobPost-form.hbs" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/templates/jobPost-form.hbs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="job-details.hbs" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/templates/job-details.hbs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="317">
+                  <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -99,18 +157,13 @@
           <file leaf-file-name="JobOpening.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/models/JobOpening.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="103" column="17" lean-forward="false" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
+                <state relative-caret-position="1110">
+                  <caret line="108" column="28" lean-forward="false" selection-start-line="108" selection-start-column="28" selection-end-line="108" selection-end-column="28" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1154#1155#0" expanded="true" />
-                    <element signature="e#1185#1186#0" expanded="true" />
-                    <element signature="e#1233#1234#0" expanded="true" />
-                    <element signature="e#1273#1274#0" expanded="true" />
-                    <element signature="e#1634#1635#0" expanded="true" />
-                    <element signature="e#1664#1665#0" expanded="true" />
                     <element signature="e#2254#2255#0" expanded="true" />
                     <element signature="e#2295#2296#0" expanded="true" />
+                    <marker date="1502395952000" expanded="true" signature="2636:2858" ph="//..." />
                   </folding>
                 </state>
               </provider>
@@ -127,6 +180,11 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cle</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -416,15 +474,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/models/JobOpening.java" />
+        <option value="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/templates/job-details.hbs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="437" />
-    <option name="y" value="79" />
-    <option name="width" value="2115" />
+    <option name="x" value="129" />
+    <option name="y" value="109" />
+    <option name="width" value="2133" />
     <option name="height" value="1242" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -454,6 +513,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="job-board" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="job-board" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="job-board" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -547,33 +632,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JobOpeningTest">
-    <configuration default="false" name="JobOpeningTest.NewJobOpeningObjectGetsCorrectlyCreated_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="job-board_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.JobOpeningTest" />
-      <option name="METHOD_NAME" value="NewJobOpeningObjectGetsCorrectlyCreated_true" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.JobOpeningTest.deleteASpecificJobOpening2">
     <configuration default="false" name="JobOpeningTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -588,32 +647,6 @@
       <option name="MAIN_CLASS_NAME" value="models.JobOpeningTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="JobOpeningTest.findReturnsCorrectJobOpening" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="models.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="job-board_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="models" />
-      <option name="MAIN_CLASS_NAME" value="models.JobOpeningTest" />
-      <option name="METHOD_NAME" value="findReturnsCorrectJobOpening" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -665,6 +698,58 @@
       <option name="PACKAGE_NAME" value="models" />
       <option name="MAIN_CLASS_NAME" value="models.JobOpeningTest" />
       <option name="METHOD_NAME" value="updateChangesJobOpeningContent" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JobOpeningTest.deleteASpecificJobOpening" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="job-board_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.JobOpeningTest" />
+      <option name="METHOD_NAME" value="deleteASpecificJobOpening" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="JobOpeningTest.deleteASpecificJobOpening2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="models.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="job-board_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="models" />
+      <option name="MAIN_CLASS_NAME" value="models.JobOpeningTest" />
+      <option name="METHOD_NAME" value="deleteASpecificJobOpening2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -883,19 +968,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.NewJobOpeningObjectGetsCorrectlyCreated_true" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.JobOpeningTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.findReturnsCorrectJobOpening" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.updateChangesJobOpeningContent" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.JobOpeningTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.updateChangesJobOpeningContent" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.deleteASpecificJobOpening" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.deleteASpecificJobOpening2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JobOpeningTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.updateChangesJobOpeningContent" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.findReturnsCorrectJobOpening" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.NewJobOpeningObjectGetsCorrectlyCreated_true" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.deleteASpecificJobOpening2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.deleteASpecificJobOpening" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.JobOpeningTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.updateChangesJobOpeningContent" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.JobOpeningTest.findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists" />
       </list>
     </recent_temporary>
   </component>
@@ -913,57 +998,57 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JobOpeningTest_findReturnsCorrectJobOpening - 2017.08.10 at 10h 12m 26s.xml">
-      <configuration name="JobOpeningTest.findReturnsCorrectJobOpening" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 12m 33s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_findReturnsCorrectJobOpening - 2017.08.10 at 10h 12m 53s.xml">
-      <configuration name="JobOpeningTest.findReturnsCorrectJobOpening" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 12m 41s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_findReturnsCorrectJobOpening - 2017.08.10 at 10h 14m 15s.xml">
-      <configuration name="JobOpeningTest.findReturnsCorrectJobOpening" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 12m 47s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists - 2017.08.10 at 10h 16m 30s.xml">
-      <configuration name="JobOpeningTest.findReturnsCorrectJobOpeningWhenMoreThanOneJobOpeningExists" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 13m 04s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_updateChangesJobOpeningContent - 2017.08.10 at 10h 47m 46s.xml">
-      <configuration name="JobOpeningTest.updateChangesJobOpeningContent" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 13m 10s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_updateChangesJobOpeningContent - 2017.08.10 at 10h 47m 56s.xml">
-      <configuration name="JobOpeningTest.updateChangesJobOpeningContent" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 21m 07s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_updateChangesJobOpeningContent - 2017.08.10 at 10h 48m 44s.xml">
-      <configuration name="JobOpeningTest.updateChangesJobOpeningContent" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 23m 03s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_updateChangesJobOpeningContent - 2017.08.10 at 10h 49m 07s.xml">
-      <configuration name="JobOpeningTest.updateChangesJobOpeningContent" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 23m 12s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_updateChangesJobOpeningContent - 2017.08.10 at 10h 50m 13s.xml">
-      <configuration name="JobOpeningTest.updateChangesJobOpeningContent" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 23m 24s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_updateChangesJobOpeningContent - 2017.08.10 at 10h 50m 37s.xml">
-      <configuration name="JobOpeningTest.updateChangesJobOpeningContent" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest_deleteASpecificJobOpening2 - 2017.08.10 at 13h 24m 42s.xml">
+      <configuration name="JobOpeningTest.deleteASpecificJobOpening2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="437" y="79" width="2115" height="1242" extended-state="0" />
+    <frame x="129" y="109" width="2133" height="1242" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49652174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49652174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39217392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39217392" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2173913" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21652174" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13699952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.091822095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -997,6 +1082,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/templates/layout.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/templates/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/templates/success.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/templates/jobPost-form.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1039,17 +1166,16 @@
             <element signature="e#2205#2206#0" expanded="true" />
             <element signature="e#2254#2255#0" expanded="true" />
             <element signature="e#2295#2296#0" expanded="true" />
+            <marker date="1502395952000" expanded="true" signature="2636:2858" ph="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/templates/job-details.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="317">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

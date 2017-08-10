@@ -97,6 +97,36 @@ public class JobOpeningTest {
 
     }
 
+    @Test
+    public void deleteASpecificJobOpening() throws Exception {
+        JobOpening jobOpening = setupNewJobOpening();
+        JobOpening otherJobOpening = new JobOpening("SEO Manager", 50000);
+        jobOpening.deleteJobOpening();
+        assertEquals(1, JobOpening.getAll().size());
+        assertEquals(JobOpening.getAll().get(0).getId(), 1);
+    }
+
+    @Test
+    public void deleteASpecificJobOpening2() throws Exception {
+        JobOpening jobOpening = setupNewJobOpening();
+        JobOpening otherJobOpening = new JobOpening("SEO Manager", 50000);
+        JobOpening otherJobOpening2 = new JobOpening("Web Developer", 55000);
+        JobOpening otherJobOpening3 = new JobOpening("Full Stack", 65000);
+        otherJobOpening2.deleteJobOpening();
+        assertEquals(otherJobOpening3.getId(), 3);
+//        assertEquals(3, JobOpening.getAll().size());
+//        assertEquals(JobOpening.getAll().get(0).getId(), 3);
+    }
+
+    @Test
+    public void deleteAllJobOpeningsDeletesAllJobOpenings() throws Exception {
+        JobOpening jobOpening = setupNewJobOpening();
+        JobOpening otherJobOpening = setupNewJobOpening();
+
+        JobOpening.clearAllJobOpenings();
+        assertEquals(0, JobOpening.getAll().size());
+    }
+
     public JobOpening setupNewJobOpening() {return new JobOpening("programmer", 40000);}
 
 }

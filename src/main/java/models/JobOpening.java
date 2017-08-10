@@ -118,11 +118,13 @@ public class JobOpening {
         this.salary = salary;
     }
 
-//    public void deletePost() {
-//        instances.remove(id - 1); //same reason
-//        for (Post thisPost : instances) {
-//            thisPost.id = instances.indexOf(thisPost) + 1;
-//        }
-//    }
+    public void deleteJobOpening() {
+        jobBoard.remove(id - 1); //same reason
+        for (JobOpening thisJobOpening : jobBoard) {
+            thisJobOpening.id = jobBoard.indexOf(thisJobOpening) + 1;
+        }
+    }
+
+
 
 }
