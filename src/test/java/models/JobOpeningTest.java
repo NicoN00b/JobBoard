@@ -33,29 +33,29 @@ public class JobOpeningTest {
 
     @Test
     public void JobOpeningInstantiatesWithContent_true() throws Exception {
-        JobOpening JobOpening = new JobOpening("programmer");
+        JobOpening JobOpening = setupNewJobOpening();
         assertEquals("programmer", JobOpening.getTitle());
     }
 
     @Test
     public void AllJobOpeningsAreCorrectlyReturned_true() {
-        JobOpening jobOpening = new JobOpening("programmer ");
-        JobOpening otherJobOpening = new JobOpening ("SEO");
+        JobOpening jobOpening = setupNewJobOpening();
+        JobOpening otherJobOpening = setupNewJobOpening();
         assertEquals(2, JobOpening.getAll().size());
     }
 
     @Test
     public void JobBoardContainsAllJobOpenings_true() {
-        JobOpening jobOpening = new JobOpening("programmer");
-        JobOpening otherJobOpening = new JobOpening("otherJobOpening");
+        JobOpening jobOpening = setupNewJobOpening();
+        JobOpening otherJobOpening = setupNewJobOpening();
         assertTrue(JobOpening.getAll().contains(jobOpening));
         assertTrue(JobOpening.getAll().contains(otherJobOpening));
     }
 
     @Test
     public void getId_JobOpeningsInstantiateWithAnID_1() throws Exception {
-        //JobOpening.clearAllJobOpenings();  // Remember, the test will fail without this line! We need to empty leftover JobOpenings from previous tests!
-        JobOpening jobOpening = new JobOpening("programmer");
+        JobOpening.clearAllJobOpenings();  // Remember, the test will fail without this line! We need to empty leftover JobOpenings from previous tests!
+        JobOpening jobOpening = setupNewJobOpening();
         assertEquals(1, jobOpening.getId());
     }
 
@@ -72,6 +72,31 @@ public class JobOpeningTest {
         assertEquals(2, JobOpening.findById(otherJobOpening.getId()).getId());
     }
 
-    public JobOpening setupNewJobOpening() {return new JobOpening("programmer");}
+    @Test
+    public void updateChangesJobOpeningContent() throws Exception {
+        JobOpening jobOpening = setupNewJobOpening();
+        String formerTitle = jobOpening.getTitle();
+        String formerLocation = jobOpening.getLocation();
+        String formerEmployer = jobOpening.getEmployer();
+        String formerDescription = jobOpening.getDescription();
+        String formerContact = jobOpening.getContact();
+        Integer formerSalary =  jobOpening.getSalary();
+        LocalDateTime formerDate = jobOpening.getCreatedAt();
+        int formerId = jobOpening.getId();
+
+        jobOpening.updateJobBoard("SEO Manager", "portland", "epicodus", "Instructor", "Debbie", 50000);
+
+        assertNotEquals(formerTitle, jobOpening.getTitle());
+        assertNotEquals(formerLocation, jobOpening.getLocation());
+        assertNotEquals(formerEmployer, jobOpening.getEmployer());
+        assertNotEquals(formerDescription, jobOpening.getDescription());
+        assertNotEquals(formerContact, jobOpening.getContact());
+        assertNotEquals(formerSalary, jobOpening.getSalary());
+        assertEquals(formerId, JobOpening.getId());
+
+
+    }
+
+    public JobOpening setupNewJobOpening() {return new JobOpening("programmer", 40000);}
 
 }

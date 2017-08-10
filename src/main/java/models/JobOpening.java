@@ -8,19 +8,20 @@ import java.util.ArrayList;
  */
 public class JobOpening {
     private String title;
-
+    private String location;
     private String employer;
     private String description;
     private String contact;
-    private String salary;
+    private Integer salary;
     private static ArrayList<JobOpening> jobBoard = new ArrayList<>();
     private LocalDateTime createdAt;
-    private  int id;
+    private static int id;
 
 
 
-    public JobOpening(String title) {
+    public JobOpening(String title, Integer salary) {
         this.title = title;
+        this.location = location;
         this.employer = employer;
         this.description = description;
         this.contact = contact;
@@ -46,6 +47,16 @@ public class JobOpening {
         this.title = title;
     }
 
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+
     public String getEmployer() {
         return employer;
     }
@@ -70,11 +81,11 @@ public class JobOpening {
         this.contact = contact;
     }
 
-    public String getSalary() {
+    public Integer getSalary() {
         return salary;
     }
 
-    public void setSalary(String salary) {
+    public void setSalary(Integer salary) {
         this.salary = salary;
     }
 
@@ -86,12 +97,25 @@ public class JobOpening {
         this.createdAt = createdAt;
     }
 
-    public int getId() {
+//    public LocalDateTime getUpdatedAt() {
+//        return updatedAt;
+//    }
+
+    public static int getId() {
         return id;
     }
 
     public static JobOpening findById(int id) {
         return jobBoard.get(id-1);
+    }
+
+    public void updateJobBoard(String title, String location, String employer, String description, String contact, Integer salary) {
+        this.title = title;
+        this.location = location;
+        this.employer = employer;
+        this.description = description;
+        this.contact = contact;
+        this.salary = salary;
     }
 
 //    public void deletePost() {
