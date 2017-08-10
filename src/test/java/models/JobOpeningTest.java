@@ -4,11 +4,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.time.LocalDateTime;
+
 import static org.junit.Assert.*;
 
-/**
- * Created by Guest on 8/10/17.
- */
+
 public class JobOpeningTest {
     @Before
     public void setUp() throws Exception {
@@ -24,7 +24,17 @@ public class JobOpeningTest {
         assertEquals(true, jobOpening instanceof JobOpening);
     }
 
+    @Test
+    public void getCreatedAt_instantiatesWithCurrentTime_today() throws Exception{
+        JobOpening jobOpening =  setupNewJobOpening(); //see below
+        assertEquals(LocalDateTime.now().getDayOfWeek(), jobOpening.getCreatedAt().getDayOfWeek());
+    }
 
+    @Test
+    public void JobOpeningInstantiatesWithContent_true() throws Exception {
+        JobOpening JobOpening = new JobOpening("programmer");
+        assertEquals("SEO", JobOpening.getTitle());
+    }
 
     public JobOpening setupNewJobOpening() {return new JobOpening("programmer");}
 
