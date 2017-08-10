@@ -15,6 +15,7 @@ public class JobOpening {
     private String salary;
     private static ArrayList<JobOpening> jobBoard = new ArrayList<>();
     private LocalDateTime createdAt;
+    private  int id;
 
 
 
@@ -26,6 +27,7 @@ public class JobOpening {
         this.salary = salary;
         jobBoard.add(this);
         this.createdAt = LocalDateTime.now();
+        this.id = jobBoard.size();
     }
 
     public static ArrayList<JobOpening> getAll() {
@@ -83,5 +85,20 @@ public class JobOpening {
     public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public static JobOpening findById(int id) {
+        return jobBoard.get(id-1);
+    }
+
+//    public void deletePost() {
+//        instances.remove(id - 1); //same reason
+//        for (Post thisPost : instances) {
+//            thisPost.id = instances.indexOf(thisPost) + 1;
+//        }
+//    }
 
 }

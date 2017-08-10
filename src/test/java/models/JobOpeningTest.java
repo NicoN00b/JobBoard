@@ -52,7 +52,12 @@ public class JobOpeningTest {
         assertTrue(JobOpening.getAll().contains(otherJobOpening));
     }
 
-
+    @Test
+    public void getId_JobOpeningsInstantiateWithAnID_1() throws Exception {
+        //JobOpening.clearAllJobOpenings();  // Remember, the test will fail without this line! We need to empty leftover JobOpenings from previous tests!
+        JobOpening jobOpening = new JobOpening("programmer");
+        assertEquals(1, jobOpening.getId());
+    }
 
     public JobOpening setupNewJobOpening() {return new JobOpening("programmer");}
 
