@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b9e19f-aa48-4aa0-bad8-776878c29c1f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/JobOpening.java" afterPath="$PROJECT_DIR$/src/main/java/models/JobOpening.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="JobOpening.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/JobOpening.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="211">
+              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#730#731#0" expanded="true" />
@@ -76,8 +75,8 @@
       <file leaf-file-name="JobOpeningTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="366">
+              <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -389,8 +388,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1268" />
-    <option name="y" value="107" />
+    <option name="x" value="1267" />
+    <option name="y" value="106" />
     <option name="width" value="1179" />
     <option name="height" value="1000" />
   </component>
@@ -811,15 +810,24 @@
     <history-entry file="JobOpeningTest - 2017.08.10 at 09h 18m 53s.xml">
       <configuration name="JobOpeningTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_NewJobOpeningObjectGetsCorrectlyCreated_true - 2017.08.10 at 08h 37m 42s.xml">
-      <configuration name="JobOpeningTest.NewJobOpeningObjectGetsCorrectlyCreated_true" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 19m 05s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JobOpeningTest_NewJobOpeningObjectGetsCorrectlyCreated_true - 2017.08.10 at 08h 54m 06s.xml">
-      <configuration name="JobOpeningTest.NewJobOpeningObjectGetsCorrectlyCreated_true" configurationId="JUnit" />
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 25m 26s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 30m 53s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 34m 08s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 35m 49s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1268" y="107" width="1179" height="1000" extended-state="0" />
+    <frame x="1267" y="106" width="1179" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -875,8 +883,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/JobOpening.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="211">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#730#731#0" expanded="true" />
@@ -913,8 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        <state relative-caret-position="366">
+          <caret line="51" column="19" lean-forward="false" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

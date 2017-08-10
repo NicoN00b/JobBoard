@@ -44,6 +44,15 @@ public class JobOpeningTest {
         assertEquals(2, JobOpening.getAll().size());
     }
 
+    @Test
+    public void JobBoardContainsAllJobOpenings_true() {
+        JobOpening jobOpening = new JobOpening("programmer");
+        JobOpening otherJobOpening = new JobOpening("otherJobOpening");
+        assertTrue(JobOpening.getAll().contains(jobOpening));
+        assertTrue(JobOpening.getAll().contains(otherJobOpening));
+    }
+
+
 
     public JobOpening setupNewJobOpening() {return new JobOpening("programmer");}
 
