@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b9e19f-aa48-4aa0-bad8-776878c29c1f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/test/models/JobOpeningTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/models/JobOpening.class" afterPath="$PROJECT_DIR$/build/classes/main/models/JobOpening.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/models/JobOpening.java" afterPath="$PROJECT_DIR$/src/main/java/models/JobOpening.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" afterPath="$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java" />
     </list>
@@ -40,33 +36,38 @@
       <file leaf-file-name="JobOpening.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/models/JobOpening.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="271">
+              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#842#843#0" expanded="true" />
-                <element signature="e#880#881#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-                <element signature="e#968#969#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1048#1049#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1436#1437#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#809#810#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1012#1013#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1337#1338#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1413#1414#0" expanded="true" />
+                <element signature="e#1451#1452#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1557#1558#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1636#1637#0" expanded="true" />
+                <element signature="e#1668#1669#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,8 +76,8 @@
       <file leaf-file-name="JobOpeningTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="441">
+              <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -798,6 +799,18 @@
     <history-entry file="JobOpeningTest - 2017.08.10 at 09h 06m 09s.xml">
       <configuration name="JobOpeningTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 07m 46s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 10m 05s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 16m 31s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JobOpeningTest - 2017.08.10 at 09h 18m 53s.xml">
+      <configuration name="JobOpeningTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="JobOpeningTest_NewJobOpeningObjectGetsCorrectlyCreated_true - 2017.08.10 at 08h 37m 42s.xml">
       <configuration name="JobOpeningTest.NewJobOpeningObjectGetsCorrectlyCreated_true" configurationId="JUnit" />
     </history-entry>
@@ -862,41 +875,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/models/JobOpening.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="271">
+          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#809#810#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1091#1092#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1413#1414#0" expanded="true" />
+            <element signature="e#1451#1452#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1557#1558#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1636#1637#0" expanded="true" />
+            <element signature="e#1668#1669#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/models/JobOpeningTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="441">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

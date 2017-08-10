@@ -16,6 +16,7 @@ public class JobOpeningTest {
 
     @After
     public void tearDown() throws Exception {
+        JobOpening.clearAllJobOpenings();
     }
 
     @Test
@@ -33,8 +34,16 @@ public class JobOpeningTest {
     @Test
     public void JobOpeningInstantiatesWithContent_true() throws Exception {
         JobOpening JobOpening = new JobOpening("programmer");
-        assertEquals("SEO", JobOpening.getTitle());
+        assertEquals("programmer", JobOpening.getTitle());
     }
+
+    @Test
+    public void AllJobOpeningsAreCorrectlyReturned_true() {
+        JobOpening jobOpening = new JobOpening("programmer ");
+        JobOpening otherJobOpening = new JobOpening ("SEO");
+        assertEquals(2, JobOpening.getAll().size());
+    }
+
 
     public JobOpening setupNewJobOpening() {return new JobOpening("programmer");}
 

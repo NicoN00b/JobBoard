@@ -1,6 +1,7 @@
 package models;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 /**
  * Created by Guest on 8/10/17.
@@ -12,6 +13,7 @@ public class JobOpening {
     private String description;
     private String contact;
     private String salary;
+    private static ArrayList<JobOpening> jobBoard = new ArrayList<>();
     private LocalDateTime createdAt;
 
 
@@ -22,9 +24,17 @@ public class JobOpening {
         this.description = description;
         this.contact = contact;
         this.salary = salary;
+        jobBoard.add(this);
         this.createdAt = LocalDateTime.now();
     }
 
+    public static ArrayList<JobOpening> getAll() {
+        return jobBoard;
+    }
+
+    public static void clearAllJobOpenings() {
+        jobBoard.clear();
+    }
 
     public String getTitle() {
         return title;
