@@ -1,0 +1,18 @@
+{{#partial "content"}}
+ <div class="well">
+   <p>Place:</p>
+   <ul>
+   <li>{{jobOpening.title}}</li>
+   <li>{{jobOpening.location}}</li>
+   <li>{{jobOpening.employer}}</li>
+   <li>{{jobOpening.description}}</li>
+   <li>{{jobOpening.contact}}</li>
+   <li>{{jobOpening.salary}}</li>
+   <li>Created At: {{jobOpening.createdAt}}</li>
+   <p>
+       <a href="/jobs/{{jobOpening.id}}/update">Edit this entry</a>
+       <a href="/jobs/{{jobOpening.id}}/delete">DELETE this entry (cannot be undone)</a>
+   </p>
+ <div class="well">
+{{/partial}}
+{{> layout.hbs}}

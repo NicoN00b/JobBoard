@@ -13,30 +13,30 @@ public class JobOpening {
     private String description;
     private String contact;
     private String salary;
-    private static ArrayList<JobOpening> jobBoard = new ArrayList<>();
+    private static ArrayList<JobOpening> allJobs = new ArrayList<>();
     private LocalDateTime createdAt;
     private static int id;
 
 
 
-    public JobOpening() {
+    public JobOpening(String title, String location, String employer, String description, String contact, String salary) {
         this.title = title;
         this.location = location;
         this.employer = employer;
         this.description = description;
         this.contact = contact;
         this.salary = salary;
-        jobBoard.add(this);
+        allJobs.add(this);
         this.createdAt = LocalDateTime.now();
-        this.id = jobBoard.size();
+        this.id = allJobs.size();
     }
 
     public static ArrayList<JobOpening> getAll() {
-        return jobBoard;
+        return allJobs;
     }
 
     public static void clearAllJobOpenings() {
-        jobBoard.clear();
+        allJobs.clear();
     }
 
     public String getTitle() {
@@ -106,7 +106,7 @@ public class JobOpening {
     }
 
     public static JobOpening findById(int id) {
-        return jobBoard.get(id-1);
+        return allJobs.get(id-1);
     }
 
     public void updateJobBoard(String title, String location, String employer, String description, String contact, String salary) {
@@ -119,9 +119,9 @@ public class JobOpening {
     }
 
     public void deleteJobOpening() {
-        jobBoard.remove(id - 1); //same reason
-        for (JobOpening thisJobOpening : jobBoard) {
-            thisJobOpening.id = jobBoard.indexOf(thisJobOpening) + 1;
+        allJobs.remove(id - 1); //same reason
+        for (JobOpening thisJobOpening : allJobs) {
+            thisJobOpening.id = allJobs.indexOf(thisJobOpening) + 1;
         }
     }
 

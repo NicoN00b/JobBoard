@@ -2,10 +2,10 @@
 
     <h1>Job List</h1>
 
-    {{#if jobOpenings}}
-        {{#each jobOpening }}
+    {{#if allJobs}}
+        {{#each allJobs}}
          <div class="well">
-            <p>Place {{id}}:</p>
+            <p>Jobs {{id}}:</p>
                <ul>
                    <li>{{title}}</li>
                    <li>{{location}}</li>
@@ -15,11 +15,11 @@
                    <li>{{salary}}</li>
                    <li>Created At: {{createdAt}}</li>
                </ul>
-            <p>{{ title }} <a href="/jobs/{{id}}">read more...</a></p>
+            <p>{{ title }} <a href="/jobOpenings/{{id}}">read more...</a></p>
          </div>
         {{/each}}
     {{else}}
-        <p>No place added!</p>
+        <p>No jobs added!</p>
     {{/if}}
 {{/partial}}
 

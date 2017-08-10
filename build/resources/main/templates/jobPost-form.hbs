@@ -1,0 +1,64 @@
+{{#partial "content"}}
+
+   {{#if editJobOpening}}
+       <h1>Edit this entry!</h1>
+       <form action="/jobs/{{editJobOpening.id}}/update" method="post">
+        <div class="form-control">
+           <label for="name">Edit this Job Title</label>
+           <input id="name" name="name" type="text" value="{{editJobOpening.title}}">
+        </div>
+        <div class="form-control">
+          <label for="location">Edit this Job Location</label>
+          <input id="location" name="location" type="text" value="{{editJobOpening.location}}">
+       </div>
+       <div class="form-control">
+          <label for="employer">Edit this Employer Name </label>
+          <input id="employer" name="employer" type="text" value="{{editJobOpening.employer}}">
+       </div>
+        <div class="form-control">
+          <label for="description">Edit this Job Description </label>
+          <input id="description" name="description" type="text" value="{{editJobOpening.description}}">
+       </div>
+       <div class="form-control">
+          <label for="contact">Edit this Job Contact </label>
+          <input id="contact" name="contact" type="text" value="{{editJobOpening.contact}}">
+       </div>
+       <div class="form-control">
+          <label for="salary">Edit the job salary</label>
+          <input id="salary" name="salary" type="text" value="{{editJobOpening.salary}}">
+       </div>
+
+   {{else}}
+   <h1>Add a New Job Listing!</h1>
+
+   <form action="/jobs/new" method="post">
+       <div class="form-control">
+          <label for="title">Job Title</label>
+          <input id="title" name="title" type="text">
+       </div>
+       <div class="form-control">
+         <label for="location">Job Listing Location</label>
+         <input id="location" name="location" type="text">
+       </div>
+       <div class="form-control">
+         <label for="employer">Employer Name</label>
+         <input id="employer" name="employer" type="text">
+        </div>
+        <div class="form-control">
+          <label for="description">Job Description</label>
+          <input id="description" name="description" type="text">
+        </div>
+        <div class="form-control">
+          <label for="contact">Contact</label>
+          <input id="contact" name="contact" type="text">
+        </div>
+        <div class="form-control">
+          <label for="salary">Salary</label>
+          <input id="salary" name="salary" type="text">
+        </div>
+   {{/if}}
+       <button type="submit" class="btn btn-default">Submit Job Listing!</button>
+   </form>
+{{/partial}}
+
+{{> layout.hbs}}

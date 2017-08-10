@@ -80,11 +80,11 @@ public class JobOpeningTest {
         String formerEmployer = jobOpening.getEmployer();
         String formerDescription = jobOpening.getDescription();
         String formerContact = jobOpening.getContact();
-        Integer formerSalary =  jobOpening.getSalary();
+        String formerSalary =  jobOpening.getSalary();
         LocalDateTime formerDate = jobOpening.getCreatedAt();
         int formerId = jobOpening.getId();
 
-        jobOpening.updateJobBoard("SEO Manager", "portland", "epicodus", "Instructor", "Debbie", 50000);
+        jobOpening.updateJobBoard("SEO Manager", "portland", "epicodus", "Instructor", "Debbie", "50,000");
 
         assertNotEquals(formerTitle, jobOpening.getTitle());
         assertNotEquals(formerLocation, jobOpening.getLocation());
@@ -100,7 +100,7 @@ public class JobOpeningTest {
     @Test
     public void deleteASpecificJobOpening() throws Exception {
         JobOpening jobOpening = setupNewJobOpening();
-        JobOpening otherJobOpening = new JobOpening("SEO Manager", 50000);
+        JobOpening otherJobOpening = new JobOpening("Programmer", "Portland", "New Relic", "blah blah", "Mr Jones", "50,000");
         jobOpening.deleteJobOpening();
         assertEquals(1, JobOpening.getAll().size());
         assertEquals(JobOpening.getAll().get(0).getId(), 1);
@@ -109,9 +109,9 @@ public class JobOpeningTest {
     @Test
     public void deleteASpecificJobOpening2() throws Exception {
         JobOpening jobOpening = setupNewJobOpening();
-        JobOpening otherJobOpening = new JobOpening("SEO Manager", 50000);
-        JobOpening otherJobOpening2 = new JobOpening("Web Developer", 55000);
-        JobOpening otherJobOpening3 = new JobOpening("Full Stack", 65000);
+        JobOpening otherJobOpening = new JobOpening("Programmer", "Portland", "New Relic", "blah blah", "Mr Jones", "50,000");
+        JobOpening otherJobOpening2 = new JobOpening("Programmer", "Portland", "New Relic", "blah blah", "Mr Jones", "50,000");
+        JobOpening otherJobOpening3 = new JobOpening("Programmer", "Portland", "New Relic", "blah blah", "Mr Jones", "50,000");
         otherJobOpening2.deleteJobOpening();
         assertEquals(otherJobOpening3.getId(), 3);
 //        assertEquals(3, JobOpening.getAll().size());
@@ -127,6 +127,6 @@ public class JobOpeningTest {
         assertEquals(0, JobOpening.getAll().size());
     }
 
-    public JobOpening setupNewJobOpening() {return new JobOpening("programmer", 40000);}
+    public JobOpening setupNewJobOpening() {return new JobOpening("Programmer", "Portland", "New Relic", "blah blah", "Mr Jones", "50,000");}
 
 }

@@ -18,30 +18,30 @@ public class App {
         }, new HandlebarsTemplateEngine());
 
         post("/jobs/new", (request, response) -> { //URL to make new place on POST route
-            Map<String, Object> model = new HashMap<String, Object>();
-            String newTitle = request.queryParams("title");
-            String newLocation = request.queryParams("location");
-            String newEmployer = request.queryParams("employer");
-            String newDescription = request.queryParams("description");
-            String newContact = request.queryParams("contact");
-            String newSalary = request.queryParams("salary");
+            Map<String, Object> model = new HashMap<>();
+            String title = request.queryParams("title");
+            String location = request.queryParams("location");
+            String employer = request.queryParams("employer");
+            String description = request.queryParams("description");
+            String contact = request.queryParams("contact");
+            String salary = request.queryParams("salary");
 
-            JobOpening newJobOpening = new JobOpening();
-            model.put("jobOpening", newJobOpening);
+            JobOpening newJobOpening = new JobOpening(title, location, employer, description, contact, salary);
+            //model.put("jobs", newJobOpening);
             return new ModelAndView(model, "success.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            ArrayList<JobOpening> jobs = JobOpening.getAll();
-            model.put("jobs", jobs);
+            ArrayList<JobOpening> allJobs = JobOpening.getAll();
+            model.put("allJobs", allJobs);
             return new ModelAndView(model, "index.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/jobs", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            ArrayList<JobOpening> jobs = JobOpening.getAll();
-            model.put("jobs", jobs);
+            ArrayList<JobOpening> jobBoard = JobOpening.getAll();
+            model.put("jobs", jobBoard);
             return new ModelAndView(model, "index.hbs");
         }, new HandlebarsTemplateEngine());
 
