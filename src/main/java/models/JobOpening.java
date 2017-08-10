@@ -12,14 +12,14 @@ public class JobOpening {
     private String employer;
     private String description;
     private String contact;
-    private Integer salary;
+    private String salary;
     private static ArrayList<JobOpening> jobBoard = new ArrayList<>();
     private LocalDateTime createdAt;
     private static int id;
 
 
 
-    public JobOpening(String title, Integer salary) {
+    public JobOpening() {
         this.title = title;
         this.location = location;
         this.employer = employer;
@@ -81,11 +81,11 @@ public class JobOpening {
         this.contact = contact;
     }
 
-    public Integer getSalary() {
+    public String getSalary() {
         return salary;
     }
 
-    public void setSalary(Integer salary) {
+    public void setSalary(String salary) {
         this.salary = salary;
     }
 
@@ -109,7 +109,7 @@ public class JobOpening {
         return jobBoard.get(id-1);
     }
 
-    public void updateJobBoard(String title, String location, String employer, String description, String contact, Integer salary) {
+    public void updateJobBoard(String title, String location, String employer, String description, String contact, String salary) {
         this.title = title;
         this.location = location;
         this.employer = employer;
